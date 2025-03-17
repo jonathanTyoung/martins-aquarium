@@ -1,0 +1,15 @@
+/* Main Layout */
+main {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#fishList, #tipList, #locationList {
+    display: grid;
+    grid-template-rows: auto auto; /* Ensures at least two rows */
+}
+
